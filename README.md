@@ -45,6 +45,7 @@ All multimedia and visual assets used in this project were provided by the Front
 - `ripple effect.mp4` – Ripple demo section
 - `scroll and pop up.mp4` – Scroll reveal section
 ---
+AI Tools used:ChatGPT(Open AI)
 ## ✨ Author
 **Kaveri Chinnam**  
 Participant – Frontend Battle 2025  
