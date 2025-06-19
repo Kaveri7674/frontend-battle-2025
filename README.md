@@ -49,6 +49,8 @@ All multimedia and visual assets used in this project were provided by the Front
 **Kaveri Chinnam**  
 Participant – Frontend Battle 2025  
 ---
+(Note: This email address is used for demonstration purposes only. It is not the official contact of the Frontend Battle team.)
+
 ## 📣 Acknowledgement
 Thanks to the Frontend Battle team for the opportunity and assets that made this project possible.
 
