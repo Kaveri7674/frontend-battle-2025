@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Battle 2025</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #111;
+      transition: background 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #111;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    #theme-toggle {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+    .hero, section, footer {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    video, img {
+      width: 90%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+    }
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      video, img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Loader Section -->
+  <div class="loader-container" id="loader">
+    <video autoplay muted loop>
+      <source src="assets/loader.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Frontend Battle</div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#customer">Customers</a></li>
+      <li><a href="#parallax">Parallax</a></li>
+      <li><a href="#ripple">Ripple</a></li>
+      <li><a href="#scroll">Scroll Reveal</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to Frontend Battle 2025</h1>
+    <p>Show off your pixel-perfect skills!</p>
+  </header>
+
+  <!-- Sections with AOS animation -->
+  <section id="features" data-aos="fade-up">
+    <h2>Our Features</h2>
+    <video autoplay muted loop>
+      <source src="assets/features-services.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="stats" data-aos="fade-up">
+    <h2>Our Stats</h2>
+    <img src="assets/stats.png" alt="Stats graphic" />
+  </section>
+
+  <section id="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <video autoplay muted loop>
+      <source src="assets/testimonials.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="showcase" data-aos="fade-up">
+    <h2>Showcase Work</h2>
+    <video autoplay muted loop>
+      <source src="assets/showcase work.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="gallery" data-aos="fade-up">
+    <h2>Card Design</h2>
+    <img src="assets/cards.png" alt="Card design" />
+  </section>
+
+  <section id="customer" data-aos="fade-up">
+    <h2>Customer Highlights</h2>
+    <video autoplay muted loop>
+      <source src="assets/customer-section.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="parallax" data-aos="fade-up">
+    <h2>Parallax Animation</h2>
+    <video autoplay muted loop>
+      <source src="assets/parallax animation.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="ripple" data-aos="fade-up">
+    <h2>Ripple Button Demo</h2>
+    <video autoplay muted loop>
+      <source src="assets/ripple effect.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="scroll" data-aos="fade-up">
+    <h2>Scroll Reveal Animation</h2>
+    <video autoplay muted loop>
+      <source src="assets/scroll and pop up.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>
+      <a href="mailto:team@frontendbattle.com" style="color: #007bff; text-decoration: underline; font-weight: bold;">
+        Email us at team@frontendbattle.com
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Frontend Battle. All rights reserved.</p>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#" style="position:fixed; bottom:20px; left:20px; background:#222; color:#fff; padding:10px 15px; border-radius:5px; text-decoration:none; font-weight:bold;">⬆ Top</a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const body = document.body;
+    const toggle = document.getElementById("theme-toggle");
+
+    // Load dark mode from localStorage
+    if (localStorage.getItem("theme") === "dark") {
+      body.classList.add("dark-mode");
+    }
+
+    // Toggle dark mode + save preference
+    toggle.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+      localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+  </script>
+</body>
+</html>
